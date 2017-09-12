@@ -12,8 +12,15 @@
 
     },
     "options_page" : "options.html",
+
+    "background" : {
+        "scripts" : ["eventPage.js"],
+        "persistent" : false
+
+    },
     "permissions" : [
         "storage",
-        "notifications"
+        "notifications",
+        "contextMenus"
     ]
 }
